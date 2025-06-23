@@ -33,7 +33,23 @@ const VideoFeed: React.FC<VideoFeedProps> = ({ activeTab, searchQuery }) => {
       category: 'Computer Science',
       hash: 'adbdfa174b',
       description: 'Introduction to computer operations and basic programming concepts. Learn how to operate a computer effectively and understand fundamental programming principles for beginners. Discover the basics of coding, software development, and digital literacy skills that are essential in today\'s technology-driven world.'
-    }
+    },
+     {
+      id: '1095495803',
+      title: 'Advanced Mathematics Concepts - Part 1',
+      vimeoUrl: 'https://player.vimeo.com/video/1095495803',
+      category: 'Mathematics',
+      hash: '55eac0fa5a',
+      description: 'Learn fundamental mathematical concepts including algebra, geometry, and calculus. This comprehensive lesson covers key topics that will help you excel in your studies. Master complex equations, understand geometric principles, and explore the fascinating world of mathematical analysis through practical examples and step-by-step explanations.'
+    },
+    {
+      id: '1095510347', 
+      title: 'Computer Operations and Basic Programming',
+      vimeoUrl: 'https://player.vimeo.com/video/1095510347',
+      category: 'Computer Science',
+      hash: 'adbdfa174b',
+      description: 'Introduction to computer operations and basic programming concepts. Learn how to operate a computer effectively and understand fundamental programming principles for beginners. Discover the basics of coding, software development, and digital literacy skills that are essential in today\'s technology-driven world.'
+    },
   ]);
 
   const [activeVideoIndex, setActiveVideoIndex] = useState(0);
