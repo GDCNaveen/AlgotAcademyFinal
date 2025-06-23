@@ -10,10 +10,10 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-const EXPIRY_DATE = new Date('2025-06-23T21:20:00');
+const EXPIRY_DATE = new Date('2025-06-30T21:20:00');
 
 const users = [
-  { username: 'Bunny', password: '123' },
+  { username: 'Naveen', password: '123' },
   { username: 'Shivaiah', password: '108' }
 ];
 
