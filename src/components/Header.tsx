@@ -38,19 +38,7 @@ const Header: React.FC<HeaderProps> = ({ activeTab, onTabChange, onSearch }) => 
             </h1>
           </div>
 
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center space-x-2">
-              <Input
-                type="text"
-                placeholder="Search videos..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-64"
-                onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
-              />
-             
-            </div>
-          </div>
+          
         </div>
 
         <div className="border-t border-gray-200">
