@@ -13,7 +13,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const EXPIRY_DATE = new Date('2025-06-30T08:00:00');
 
 const users = [
-  { username: 'Naveen', password: '123' },
+  { username: 'Bunny', password: '123' },
   { username: 'Shivaiah', password: '108' }
 ];
 
