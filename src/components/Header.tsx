@@ -48,9 +48,7 @@ const Header: React.FC<HeaderProps> = ({ activeTab, onTabChange, onSearch }) => 
                 className="w-64"
                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
               />
-              <Button onClick={handleSearch} size="sm" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-                <Search className="h-4 w-4" />
-              </Button>
+             
             </div>
           </div>
         </div>
